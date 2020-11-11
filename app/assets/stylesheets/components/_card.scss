@@ -1,0 +1,70 @@
+.flat-card {
+    width: 100%;
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+element.style {
+    background-image: url(https://images.unsplash.com/photo-1568635454645-b0da21651742?ixlib=rb-1.2.1&auto=format&fit=crop&w=1988&q=80);
+}
+
+.flat-card-image {
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    display: block;
+}
+
+.flat-card-content {
+    padding: 24px;
+    background-color: #F8F9FA;
+}
+
+.flat-card-actions {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 16px 24px;
+}
+
+.mt-3 {
+    margin-top: 1rem!important;
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
